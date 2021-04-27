@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/all.css">
+    <link rel="shortcut icon" href="./favicon.ico" title="Favicon" />
+    <meta name="themecolor" content="#f0f0f0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دیجی شاپ | digishop</title>
+</head>
+<body>
+<div class="container">
+<!--start header-->
+   <div class="header">
+       <!--start topbar-->
+      <div class="topbar">
+         <div class="logo-box"><a href="#" class="logo">DIGISHOP</a></div>
+         <div class="search">
+         <i class="fa fa-search"></i>
+         <input type="search" placeholder="جستجو در دیجی شاپ ...">
+         </div>
+         <div class="space"></div>
+         <div class="login">
+         <a href="./login.html" class="login"><i class="fa fa-user"></i><span>ورود به حساب کاربری</span></a>
+         </div>
+         <div class="cart">
+         <a href="#" class="fa fa-shopping-basket"></a>
+         </div>
+      </div>
+      <!--End topbar-->
+      <!--start mainbar-->
+      <div class="mainbar">
+        <!--start desktop menu-->
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="#"><i class="fa fa-bars"></i>دسته بندی ها</a>
+                        <ul>
+                        <li><a href="#"><i class="fa fa-laptop"></i>کالای دیجیتال</a></li>
+                        <li><a href="#"><i class="fa fa-tshirt"></i>مد و پوشاک</a></li>
+                        <li><a href="#"><i class="fa fa-heart"></i>زیبایی و سلامت</a></li>
+                        <li><a href="#"><i class="fa fa-couch"></i>خانه و آشپزخانه</a></li>
+                        <li><a href="#"><i class="fa fa-pencil-alt"></i>کتاب،لوازم التحریر و هنر</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><i class="fa fa-store"></i>سوپرمارکت<hr></a></li>
+                    <li><a href="#"><i class="fa fa-percent"></i>تخفیف ها و پیشنهاد ها<hr></a></li>
+                    <li><a href="#"><i class="fa fa-question"></i>سوالی دارید؟<hr></a></li>
+                    <li><a href="#"><i class="fa fa-user-check"></i>فروشنده شوید<hr></a></li>
+                </ul>
+            </nav>
+        </div>
+        <!--End desktop menu-->
+        <!--start location-->
+        <div class="location"><a href="#">لطفا شهر و استان خود را انتخاب کنید</a><i class="fa fa-map-marker-alt"></i></div>
+        <!--End location-->
+      </div>
+      <!--End mainbar-->
+   </div>
+<!--End header-->
+<!--start header mobile-->
+<div class="header-mobile">
+    <!--start topbar mobile-->
+    <div class="topbar-mobile">
+        <div class="menu-mobile">
+            <details>
+            <summary><i class="fa fa-bars"></i></summary>
+            <ul>
+                <li><a href="#"><i class="fa fa-store"></i>سوپرمارکت</a></li>
+                    <li><a href="#"><i class="fa fa-percent"></i>تخفیف ها و پیشنهاد ها</a></li>
+                    <li><a href="#"><i class="fa fa-user-check"></i>فروشنده شوید<hr></a></li>
+                    <li>
+                        <details>
+                            <summary><a href="#">دسته بندی ها</a><i class="fa fa-plus"></i></summary>
+                        <ul>
+                        <li><a href="#"><i class="fa fa-laptop"></i>کالای دیجیتال</a></li>
+                        <li><a href="#"><i class="fa fa-tshirt"></i>مد و پوشاک</a></li>
+                        <li><a href="#"><i class="fa fa-heart"></i>زیبایی و سلامت</a></li>
+                        <li><a href="#"><i class="fa fa-couch"></i>خانه و آشپزخانه</a></li>
+                        <li><a href="#"><i class="fa fa-pencil-alt"></i>کتاب،لوازم التحریر و هنر</a></li>
+                        </ul>
+                        </details>
+                    </li>
+                    <input type="search" placeholder="جستجو در دیجی شاپ ...">
+            </ul>
+            </details>
+        </div>
+        <div class="logo-box-mobile"><a href="#" class="logo-mobile">DIGISHOP</a></div>
+        <div class="login-mobile"><a href="./login.html" class="fa fa-user" title="ورود"></a></div>
+        <div class="location-mobile"><a href="#" class="fa fa-map-marker-alt" title="استان و شهرتان را انتخاب کنید"></a></div>
+        <div class="question"><a href="#" class="fa fa-question" title="سوالات متداول"></a></div>
+    </div>
+    <!--End topbar mobile-->
+</div>
+<!--End header mobile-->
+<div class="main">
+    <div class="topheader">
+        <div class="slider">
+            <input type="radio" name="image-slider" id="radio-slider1" checked>
+            <input type="radio" name="image-slider" id="radio-slider2">
+            <input type="radio" name="image-slider" id="radio-slider3">
+            <div class="slider-img" id="one">
+                <img src="img/banerslider1.jpg" alt="ساعت های مردانه" title="ساعت های مردانه">
+                <label for="radio-slider3" class="pre"><i class="fa fa-angle-left"></i></label>
+                <label for="radio-slider2" class="next"><i class="fa fa-angle-right"></i></label>
+            </div>
+            <div class="slider-img" id="two">
+                <img src="img/banerslider2.jpg" alt="ساعت های زنانه" title="ساعت های زنانه">
+                <label for="radio-slider1" class="pre"><i class="fa fa-angle-left"></i></label>
+                <label for="radio-slider3" class="next"><i class="fa fa-angle-right"></i></label>
+            </div>
+            <div class="slider-img" id="three">
+                <img src="img/banerslider3.jpg" alt="ساعت های ست" title="ساعت های ست">
+                <label for="radio-slider2" class="pre"><i class="fa fa-angle-left"></i></label>
+                <label for="radio-slider1" class="next"><i class="fa fa-angle-right"></i></label>
+            </div>
+            <div class="slider-counter">
+                <label for="radio-slider1" class="counter" id="count1"></label>
+                <label for="radio-slider2" class="counter" id="count2"></label>
+                <label for="radio-slider3" class="counter" id="count3"></label>
+            </div>
+        </div>
+        <div class="sidebar-topheader">
+            <div class="sidebarbaner">
+                <img src="img/baner1.jpg" alt="محصولات سلامت غیر دارویی" title="محصولات سلامت غیر دارویی" class="sidebar-baner1">
+            </div>
+            <div class="sidebarbaner">
+                <img src="img/baner2.gif" alt="روز جهانی خواهر و برادر" title="روز جهانی خواهر و برادر" class="sidebar-baner2">
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="carosell">
+            <div class="img-carosell">
+                <img src="img/shegeftangiz.png" alt="محصولات شگفت انگیز">
+                <a href="#">مشاهده همه    <i class="fa fa-angle-left"></i></a>
+            </div>
+            <div class="products-carosell">
+                <div class="product">
+                    <img src="img/mahsol1.jpg">
+                    <p>پاکت نامه مدل روژان بسته 10 عددی</p>
+                    <div class="price">
+                        <a>23%</a>
+                        <span>9,000</span><br>
+                        <p>تومان</p><h3>6,900</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/mahsol2.jpg">
+                    <p>کفش مردانه داکرز مدل ABR-KH</p>
+                    <div class="price">
+                        <a>48%</a>
+                        <span>961,000</span><br>
+                        <p>تومان</p><h3>495,000</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/mahsol3.jpg">
+                    <p>ساعت مچی دیجیتال کاین </p>
+                    <div class="price">
+                        <a>61%</a>
+                        <span>490,000</span><br>
+                        <p>تومان</p><h3>189,000</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/mahsol4.jpg">
+                    <p>پد پایه مبل 2.5*2.5 سانت 30 عددی</p>
+                    <div class="price">
+                        <a>21%</a>
+                        <span>21,000</span><br>
+                        <p>تومان</p><h3>16,600</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carosell-mobile">
+                <div class="img-carosell">
+                    <img src="img/shegeftangiz.png" alt="محصولات شگفت انگیز">
+                    <a href="#">مشاهده همه    <i class="fa fa-angle-left"></i></a>
+                </div>
+                <div class="products-carosell">
+                    <div class="product">
+                        <img src="img/mahsol1.jpg">
+                        <p>پاکت نامه مدل روژان بسته 10 عددی</p>
+                        <div class="price">
+                            <a>23%</a>
+                            <span>9,000</span><br>
+                            <p>تومان</p><h3>6,900</h3>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="img/mahsol2.jpg">
+                        <p>کفش مردانه داکرز مدل ABR-KH</p>
+                        <div class="price">
+                            <a>48%</a>
+                            <span>961,000</span><br>
+                            <p>تومان</p><h3>495,000</h3>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="img/mahsol3.jpg">
+                        <p>ساعت مچی دیجیتال کاین </p>
+                        <div class="price">
+                            <a>61%</a>
+                            <span>490,000</span><br>
+                            <p>تومان</p><h3>189,000</h3>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="img/mahsol4.jpg">
+                        <p>پد پایه مبل 2.5*2.5 سانت 30 عددی</p>
+                        <div class="price">
+                            <a>21%</a>
+                            <span>21,000</span><br>
+                            <p>تومان</p><h3>16,600</h3>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="baner">
+            <div class="img-baner">
+                <img src="img/banerr3.jpg">
+            </div>
+            <div class="img-baner">
+                <img src="img/banerr4.jpg">
+            </div>
+            <div class="img-baner">
+                <img src="img/banerr5.jpg">
+            </div>
+            <div class="img-baner">
+                <img src="img/banerr6.jpg">
+            </div>
+        </div>
+        <div class="carosell" id="supermarket">
+            <div class="img-carosell">
+                <img src="img/supermarket.png" alt="محصولات شگفت انگیز سوپر مارکت">
+                <a href="#">مشاهده همه    <i class="fa fa-angle-left"></i></a>
+            </div>
+            <div class="products-carosell">
+                <div class="product">
+                    <img src="img/mahsols1.jpg">
+                    <p>مایع دستشویی داو با رایحه وانیل</p>
+                    <div class="price">
+                        <a>20%</a>
+                        <span>46,500</span><br>
+                        <p>تومان</p><h3>37,000</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/mahsols2.jpg">
+                    <p>زیتون شور معمولی بیژن</p>
+                    <div class="price">
+                        <a>38%</a>
+                        <span>32,000</span><br>
+                        <p>تومان</p><h3>19,900</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/mahsols3.jpg">
+                    <p>اسپری تمیزکننده سطوح اکتیو</p>
+                    <div class="price">
+                        <a>18%</a>
+                        <span>20,130</span><br>
+                        <p>تومان</p><h3>16,500</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/mahsols4.jpg">
+                    <p>دستمال کاغذی 100برگ مدل yellow</p>
+                    <div class="price">
+                        <a>40%</a>
+                        <span>68,400</span><br>
+                        <p>تومان</p><h3>40,900</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carosell-mobile" id="supermarket">
+                <div class="img-carosell">
+                    <img src="img/supermarket.png" alt="محصولات شگفت انگیز سوپر مارکت">
+                    <a href="#">مشاهده همه    <i class="fa fa-angle-left"></i></a>
+                </div>
+                <div class="products-carosell">
+                    <div class="product">
+                        <img src="img/mahsols1.jpg">
+                        <p>مایع دستشویی داو با رایحه وانیل</p>
+                        <div class="price">
+                            <a>20%</a>
+                            <span>46,500</span><br>
+                            <p>تومان</p><h3>37,000</h3>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="img/mahsols2.jpg">
+                        <p>زیتون شور معمولی بیژن</p>
+                        <div class="price">
+                            <a>38%</a>
+                            <span>32,000</span><br>
+                            <p>تومان</p><h3>19,000</h3>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="img/mahsols3.jpg">
+                        <p>اسپری تمیزکننده سطوح اکتیو</p>
+                        <div class="price">
+                            <a>18%</a>
+                            <span>20,130</span><br>
+                            <p>تومان</p><h3>16,500</h3>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="img/mahsols4.jpg">
+                        <p>دستمال کاغذی 100برگ مدل yellow</p>
+                        <div class="price">
+                            <a>40%</a>
+                            <span>68,400</span><br>
+                            <p>تومان</p><h3>40,900</h3>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="mobile-part"><h1>گوشی موبایل</h1></div>
+        <div class="carosell"  id="product-mobile">
+            <div class="products-carosell" id="products-mobile">
+                <div class="product">
+                    <img src="img/mahsolm1.jpg">
+                    <p>گوشی موبایل شیائومی مدل poco m3</p>
+                    <div class="price">
+                        <p>تومان</p><h3>4,970,000</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/mahsolm2.jpg">
+                    <p>گوشی موبایل سامسونگ مدل A21s</p>
+                    <div class="price">
+                        <p>تومان</p><h3>4,649,000</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/mahsolm3.jpg">
+                    <p>گوشی موبایل سامسونگ مدل s20 FE</p>
+                    <div class="price">
+                        <p>تومان</p><h3>12,599,000</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/mahsolm5.jpg">
+                    <p>گوشی موبایل سامسونگ مدل A71</p>
+                    <div class="price">
+                        <p>تومان</p><h3>10,199,000</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="instant-offer">
+                <a>پیشنهاد های لحظه ای برای شما</a>
+                <img src="img/mahsolm4.jpg" alt="پیشنهاد های لحظه ای برای شما">
+                <p>گوشی موبایل iphone 12 promax</p>
+                <div class="price-instant"><p>تومان</p><h3>40,200,000</h3></div>
+            </div>
+        </div>
+        <div class="carosell-mobile product-mobile" id="product-mobile">
+            <div class="products-carosell" id="products-mobile">
+                <div class="product">
+                    <img src="img/mahsolm1.jpg">
+                    <p>گوشی موبایل شیائومی مدل poco m3</p>
+                    <div class="price">
+                        <p>تومان</p><h3>4,970,000</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/mahsolm2.jpg">
+                    <p>گوشی موبایل سامسونگ مدل A21s</p>
+                    <div class="price">
+                        <p>تومان</p><h3>4,649,000</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/mahsolm3.jpg">
+                    <p>گوشی موبایل سامسونگ مدل s20 FE</p>
+                    <div class="price">
+                        <p>تومان</p><h3>12,599,000</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/mahsolm5.jpg">
+                    <p>گوشی موبایل سامسونگ مدل A71</p>
+                    <div class="price">
+                        <p>تومان</p><h3>10,199,000</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="baner">
+        <div class="img-baner">
+            <img src="img/bbaner1.jpg">
+        </div>
+        <div class="img-baner">
+            <img src="img/bbaner2.jpg">
+        </div>
+        <div class="img-baner">
+            <img src="img/bbaner3.jpg">
+        </div>
+        <div class="img-baner">
+            <img src="img/bbaner4.jpg">
+        </div>
+    </div>
+    <div class="box-icon">
+        <div class="title"><h2>بیش از 1000 کالا در دسته بندی های مختلف</h2></div>
+        <div class="boxes">
+        <div class="box"><p class="fa fa-laptop"></p><h5>کالای دیجیتال</h5><p>+ 351 کالا</p></div>
+        <div class="box"><p class="fa fa-tshirt"></p><h5>مد و پوشاک</h5><p>+ 208 کالا</p></div>
+        <div class="box"><p class="fa fa-heart"></p><h5>زیبایی و سلامت</h5><p>+ 109 کالا</p></div>
+        <div class="box"><p class="fa fa-couch"></p><h5>خانه و آشپزخانه</h5><p>+ 214 کالا</p></div>
+        <div class="box"><p class="fa fa-pencil-alt"></p><h5>کتاب،لوازم التحریر و هنر</h5><p>+ 199 کالا</p></div>
+        </div>
+    </div>
+    <div class="mobile-part"><h1>محصولات پر فروش اخیر</h1></div>
+        <div class="carosell recents"  id="product-mobile">
+            <div class="products-carosell recent" id="products-mobile">
+                <div class="product">
+                    <img src="img/mahsolp1.jpg">
+                    <p>ماسک تنفسی مدل ملت بلون بسته 51 عددی</p>
+                    <div class="price">
+                        <p>تومان</p><h3>23,290</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/mahsolp2.jpg">
+                    <p>گوشی موبایل سامسونگ مدل A12</p>
+                    <div class="price">
+                        <p>تومان</p><h3>4,069,000</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/mahsolp3.jpg">
+                    <p>ماسک تنفسی مدل 3270 بسته 50 عددی</p>
+                    <div class="price">
+                        <p>تومان</p><h3>27,950</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/mahsolp4.jpg">
+                    <p>هندزفری بلوتوث مدل SP01</p>
+                    <div class="price">
+                        <p>تومان</p><h3>35,110</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carosell-mobile product-mobile" id="product-mobile">
+            <div class="products-carosell" id="products-mobile">
+                <div class="product">
+                    <img src="img/mahsolp1.jpg">
+                    <p>ماسک تنفسی مدل ملت بلون بسته 51 عددی</p>
+                    <div class="price">
+                        <p>تومان</p><h3>23,290</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/mahsolp2.jpg">
+                    <p>گوشی موبایل سامسونگ مدل A12</p>
+                    <div class="price">
+                        <p>تومان</p><h3>4,069,000</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/mahsolp3.jpg">
+                    <p>ماسک تنفسی مدل 3270 بسته 50 عددی</p>
+                    <div class="price">
+                        <p>تومان</p><h3>27,950</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/mahsolp4.jpg">
+                    <p>هندزفری بلوتوث مدل SP01</p>
+                    <div class="price">
+                        <p>تومان</p><h3>35,110</h3>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="baner-tak">
+        <img src="img/baaner.jpg">
+    </div>
+    <div class="mobile-part"><h1>کیف و کوله</h1></div>
+        <div class="carosell recents"  id="product-mobile">
+            <div class="products-carosell recent" id="products-mobile">
+                <div class="product">
+                    <img src="img/mahsolc1.jpg">
+                    <p>کوله پشتی کوهنوردی فیرو پلاس کد831</p>
+                    <div class="price">
+                        <a>52%</a>
+                            <span>415,000</span><br>
+                        <p>تومان</p><h3>199,000</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/mahsolc2.jpg">
+                    <p>کوله پشتی فیرو پلاس کد453</p>
+                    <div class="price">
+                        <a>50%</a>
+                            <span>189,000</span><br>
+                        <p>تومان</p><h3>95,000</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/mahsolc3.jpg">
+                    <p>کوله پشتی فیرو پلاس کد758</p>
+                    <div class="price">
+                        <a>50%</a>
+                            <span>189,000</span><br>
+                        <p>تومان</p><h3>95,000</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/mahsolc5.jpg">
+                    <p>کوله پشتی فوروارد مدل FCLT8002</p>
+                    <div class="price">
+                        <p>تومان</p><h3>369,000</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carosell-mobile product-mobile" id="product-mobile">
+            <div class="products-carosell" id="products-mobile">
+                <div class="product">
+                    <img src="img/mahsolc1.jpg">
+                    <p>کوله پشتی کوهنوردی فیرو پلاس کد831</p>
+                    <div class="price">
+                        <a>52%</a>
+                            <span>415,000</span><br>
+                        <p>تومان</p><h3>199,000</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/mahsolc2.jpg">
+                    <p>کوله پشتی فیرو پلاس کد453</p>
+                    <div class="price">
+                        <a>50%</a>
+                            <span>189,000</span><br>
+                        <p>تومان</p><h3>95,000</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/mahsolc3.jpg">
+                    <p>کوله پشتی فیرو پلاس کد758</p>
+                    <div class="price">
+                        <a>50%</a>
+                            <span>189,000</span><br>
+                        <p>تومان</p><h3>95,000</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/mahsolc5.jpg">
+                    <p>کوله پشتی فوروارد مدل FCLT8002</p>
+                    <div class="price">
+                        <p>تومان</p><h3>369,000</h3>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="box-brand">
+        <div class="title"><h2>برند های ویژه</h2></div>
+        <div class="boxes">
+        <div class="box"><img src="img/brand1.jpg"></div>
+        <div class="box"><img src="img/brand2.png"></div>
+        <div class="box"><img src="img/brand3.png"></div>
+        <div class="box"><img src="img/brand4.png"></div>
+        <div class="box"><img src="img/brand5.png"></div>
+        </div>
+    </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="top-btn"><span> <a href="#" class="fa fa-angle-up"></a> برگشت به بالا</span></div>
+    <div class="topfooter">
+        <div class="box-icon-footer">
+            <div><img src="./img/icon1.svg"><p>تحویل اکسپرس</p></div>
+            <div><img src="./img/icon2.svg"><p>پشتیبانی 24 ساعته</p></div>
+            <div><img src="./img/icon3.svg"><p>پرداخت در محل</p></div>
+            <div><img src="./img/icon4.svg"><p>7 روز ضمانت بازگشت</p></div>
+            <div><img src="./img/icon5.svg"><p>ضمانت اصل بودن کالا</p></div>
+        </div>
+        <div class="main-topfooter">
+        <div class="link-footer"><a href="#">راهنمای خرید از دیجی کالا</a><a href="#">نحوه ثبت سفارش</a><a href="#">رویه ارسال سفارش</a><a href="#">شیوه های پرداخت</a></div>
+        <div class="link-footer"><a href="#">خدمات مشتریان</a><a href="#">پاسخ به پرسش های متداول</a><a href="#">شرایط استفاده</a><a href="#">حریم خصوصی</a></div>
+        <div class="link-footer"><a href="#">با دیجی شاپ</a><a href="#">تماس با دیجی شاپ</a><a href="#">درباره دیجی شاپ</a><a href="#">راهنمای هویت بصری</a></div>
+        <div class="newsletters">
+        <p>از تخفیف‌ها و جدیدترین‌های دیجی شاپ باخبر شوید:</p>
+        <div class="newsletters-input">
+            <input type="email" placeholder="آدرس ایمیل خود را وارد کنید">
+            <a href="#">ارسال</a>
+        </div>
+        <p>دیجی شاپ را در شبکه‌های اجتماعی دنبال کنید:</p>
+        <div class="social-footer"><a href="#"><i class="fab fa-linkedin"></i></a></div>
+        <div class="social-footer"><a href="#"><i class="fab fa-telegram"></i></a></div>
+        <div class="social-footer"><a href="#"><i class="fab fa-twitter"></i></a></div>
+        <div class="social-footer"><a href="#"><i class="fab fa-instagram"></i></a></div>
+        </div>
+        </div>
+        <div class="bottom-topfooter">
+            <h2>هفت روز هفته ، ۲۴ ساعت شبانه‌روز پاسخگوی شما هستیم  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  شماره تماس : 61111111-021  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  آدرس ایمیل : info@test.com</h2>
+            <div class="app-download">
+            <img src="./img/app1.png">
+            <img src="./img/app2.svg">
+            <img src="./img/app3.svg">
+            <img src="./img/app4.png">
+            </div>
+        </div>
+    </div>
+    <div class="bottomfooter">
+        <div class="top-bottomfooter">
+            <div class="aboutus-footer">
+            <span>فروشگاه اینترنتی دیجی شاپ، بررسی، انتخاب و خرید آنلاین</span><br><br>
+            <p>دیجی شاپ به عنوان یکی از قدیمی‌ترین فروشگاه های اینترنتی با بیش از یک دهه تجربه، با پایبندی به سه اصل، پرداخت در محل، 7 روز ضمانت بازگشت کالا و تضمین اصل‌بودن کالا موفق شده تا همگام با فروشگاه‌های معتبر جهان، به بزرگ‌ترین فروشگاه اینترنتی ایران تبدیل شود. به محض ورود به سایت دیجی‌کالا با دنیایی از کالا رو به رو می‌شوید! هر آنچه که نیاز دارید و به ذهن شما خطور می‌کند در اینجا پیدا خواهید کرد. </p>
+            </div>
+            <div class="logo-footer">
+            <img src="./img/namad1.png">
+            <img src="./img/namad2.png">
+            <img src="./img/namad3.png">
+            </div>
+        </div>
+        <div class="bottom-bottomfooter">
+            <p>کلیه مطالب و تصاویر این سایت از وب سایت دیجی کالا کپی برداری شده است و در صورت درخواست این سایت فورا حذف خواهد شد. در این سایت فروش انجام نخواهد شد. طراحی شده توسط مسعود عرب زاده</p>
+        </div>
+    </div>
+</div>
+<div class="footer-mobile">
+    <div class="app-download-mobile">
+        <p>تخفیف های جذاب را از اپلیکیشن دنبال کنید!</p>
+        <img src="./img/app1.png">
+        <img src="./img/app2.svg">
+        <img src="./img/app3.svg">
+        <img src="./img/app4.png">
+    </div>
+    <div class="newsletters-mobile">
+        <p>از تخفیف ها و جدیدترین های دیجی کالا با خبر شوید!</p>
+        <div><i class="fa fa-envelope"></i><input type="email" placeholder="آدرس ایمیل"></div>
+        <a href="#">تایید ایمیل</a>
+    </div>
+    <div class="bottomfooter-mobile">
+        <div class="insta-footer-mobile">
+        <p>ما را در شبکه های اجتماعی دنبال کنید</p>
+        <a href="#"><i class="fab fa-instagram"></i>اینستاگرام دیجی شاپ</a>
+        </div>
+        <div class="link-footer-mobile">
+            <div>
+                <a href="#">نحوه ثبت سفارش</a>
+                <a href="#">رویه ارسال سفارش</a>
+                <a href="#">شیوه های پرداخت</a>
+            </div>
+            <div>
+                <a href="#">تماس با دیجی شاپ</a>
+                <a href="#">درباره دیجی شاپ</a>
+                <a href="#">راهنمای هویت بصری</a>
+            </div>
+        </div>
+        <div class="about-us-footer-mobile">
+            <h2>فروشگاه اینترنتی دیجی شاپ، بررسی، انتخاب و خرید آنلاین</h2>
+            <p>دیجی شاپ به عنوان یکی از قدیمی‌ترین فروشگاه های اینترنتی با بیش از یک دهه تجربه، با پایبندی به سه اصل، پرداخت در محل، 7 روز ضمانت بازگشت کالا و تضمین اصل‌بودن کالا موفق شده تا همگام با فروشگاه‌های معتبر جهان، به بزرگ‌ترین فروشگاه اینترنتی ایران تبدیل شود. به محض ورود به سایت دیجی‌کالا با دنیایی از کالا رو به رو می‌شوید! هر آنچه که نیاز دارید و به ذهن شما خطور می‌کند در اینجا پیدا خواهید کرد. دیجی شاپ به عنوان یکی از قدیمی‌ترین فروشگاه های اینترنتی با بیش از یک دهه تجربه، با پایبندی به سه اصل، پرداخت در محل، 7 روز ضمانت بازگشت کالا و تضمین اصل‌بودن کالا موفق شده تا همگام با فروشگاه‌های معتبر جهان، به بزرگ‌ترین فروشگاه اینترنتی ایران تبدیل شود. به محض ورود به سایت دیجی‌کالا با دنیایی از کالا رو به رو می‌شوید! هر آنچه که نیاز دارید و به ذهن شما خطور می‌کند در اینجا پیدا خواهید کرد. </p>
+        </div>
+        <div class="copyright-mobile">
+            <p>کلیه مطالب و تصاویر این سایت از وب سایت دیجی کالا کپی برداری شده است و در صورت درخواست این سایت فورا حذف خواهد شد.<br> طراحی شده توسط مسعود عرب زاده</p>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
